@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craving Corner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imgs/coffe.jpg" type="image/x-icon">
+</head>
+<body>
+    <nav class="Navbar">
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul id="primary-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#info">Info</a></li>
+        </ul>
+    </nav>
+    <section class="Pages Hero" id="home">
+        <h1>Craving Corner</h1>
+        <p class="hero-subhead" aria-live="polite">
+            <span id="quote-text"></span><span class="cursor" aria-hidden="true"></span>
+        </p>
+    </section>
+    <br>
+    <section class="Pages About-us" id="about">
+        <h2>About us</h2>
+        <p>
+            Carvings Corner is a curated space dedicated to the art of carving. We showcase finely crafted works that highlight precision, creativity, and tradition.
+            Our goal is simple: to connect people with meaningful craftsmanship and inspire appreciation for the artistry behind every carved piece.
+        </p>
+    </section>
+    <hr>
+    <section class="Pages Menu" id="menu">
+        <h2>Our Menu</h2>
+        <div class="table-wrap">
+            <table border="1">
+                <tr style="background-color: hsl(34, 100%, 87%);">
+                    <th>Dish</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Garlic Bread</td>
+                    <td>Toasted with herb butter</td>
+                    <td>Starters</td>
+                    <td>Rs. 120</td>
+                </tr>
+                <tr>
+                    <td>Veg Spring Rolls</td>
+                    <td>Crispy, served with dip</td>
+                    <td>Starters</td>
+                    <td>Rs. 150</td>
+                </tr>
+                <tr>
+                    <td>Paneer Tikka Wrap</td>
+                    <td>Grilled paneer in a soft roll</td>
+                    <td>Mains</td>
+                    <td>Rs. 220</td>
+                </tr>
+                <tr>
+                    <td>Margherita Pizza</td>
+                    <td>Classic tomato and cheese</td>
+                    <td>Mains</td>
+                    <td>Rs. 280</td>
+                </tr>
+                <tr>
+                    <td>Cold Coffee</td>
+                    <td>Blended with ice cream</td>
+                    <td>Drinks</td>
+                    <td>Rs. 110</td>
+                </tr>
+                <tr>
+                    <td>Chocolate Brownie</td>
+                    <td>Warm, with vanilla scoop</td>
+                    <td>Desserts</td>
+                    <td>Rs. 160</td>
+                </tr>
+            </table>
+        </div>
+        <h3>Today's special</h3>
+        <div>
+            <div>
+                <img src="Imgs/iced-coffee.svg" alt="Iced coffee">
+                <h4>Iced Coffee</h4>
+            </div>
+            <div>
+                <img src="Imgs/garlic-bread.svg" alt="Garlic bread">
+                <h4>Garlic Bread</h4>
+            </div>
+            <div>
+                <img src="Imgs/spring-rolls.svg" alt="Veg spring rolls">
+                <h4>Spring Rolls</h4>
+            </div>
+            <div>
+                <img src="Imgs/paneer-wrap.svg" alt="Paneer tikka wrap">
+                <h4>Paneer Wrap</h4>
+            </div>
+            <div>
+                <img src="Imgs/margherita-pizza.svg" alt="Margherita pizza">
+                <h4>Margherita Pizza</h4>
+            </div>
+            <div>
+                <img src="Imgs/chocolate-brownie.svg" alt="Chocolate brownie">
+                <h4>Chocolate Brownie</h4>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="Pages Form" id="contact">
+        <h2>Book A Table</h2>
+        <form>
+            <div class="form-grid">
+                <div class="field">
+                    <label for="fullname">Full Name</label>
+                    <input id="fullname" type="text" name="fullname" placeholder="Enter your name">
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" placeholder="Enter your email">
+                </div>
+                <div class="field">
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" type="tel" name="phone" placeholder="Enter your number">
+                </div>
+                <div class="two-up">
+                    <div class="field">
+                        <label for="date">Date</label>
+                        <input id="date" type="date" name="date">
+                    </div>
+                    <div class="field">
+                        <label for="time">Time</label>
+                        <input id="time" type="time" name="time">
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="guests">Number of Guests</label>
+                    <select id="guests" name="guests">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4 or more</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label>Seating Preference</label>
+                    <div class="option-row">
+                        <label><input type="radio" name="seating" value="indoor"> Indoor</label>
+                        <label><input type="radio" name="seating" value="outdoor"> Outdoor</label>
+                    </div>
+                </div>
+                <div class="field">
+                    <label>Add-ons</label>
+                    <div class="option-stack">
+                        <label><input type="checkbox" name="addon" value="cake"> Birthday cake</label>
+                        <label><input type="checkbox" name="addon" value="highchair"> High chair</label>
+                        <label><input type="checkbox" name="addon" value="window"> Window seat</label>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="requests">Special Requests</label>
+                    <textarea id="requests" name="requests" rows="4" placeholder="Anything we should know?"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+    <br>
+    <footer class="footer" id="info">
+        <div class="footer-inner">
+            <div class="footer-visit">
+                <h2>Visit Us</h2>
+                <p>
+                    Craving Corner, 24 Palm Street, Midtown Plaza,
+                    Near Central Park, Pune, Maharashtra 411001
+                </p>
+            </div>
+            <div class="footer-meta">
+                <p><strong>Hours:</strong> 10:00 AM - 10:00 PM</p>
+                <p><strong>Call:</strong> +91 98765 43210</p>
+                <div class="social-links" aria-label="Social media links">
+                    <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M13.5 8.5V7.2c0-.6.4-.7.7-.7h1.8V3h-2.6C10.4 3 9 4.6 9 7v1.5H7v3h2V21h4v-9.5h2.7l.4-3h-3.1Z"/>
+                        </svg>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M7 3.5h10A3.5 3.5 0 0 1 20.5 7v10A3.5 3.5 0 0 1 17 20.5H7A3.5 3.5 0 0 1 3.5 17V7A3.5 3.5 0 0 1 7 3.5Zm0 2A1.5 1.5 0 0 0 5.5 7v10A1.5 1.5 0 0 0 7 18.5h10a1.5 1.5 0 0 0 1.5-1.5V7A1.5 1.5 0 0 0 17 5.5H7Zm8.75.75a1 1 0 1 1 0 2 1 1 0 0 1 0-2ZM12 8.5A3.5 3.5 0 1 1 8.5 12 3.5 3.5 0 0 1 12 8.5Zm0 2A1.5 1.5 0 1 0 13.5 12 1.5 1.5 0 0 0 12 10.5Z"/>
+                        </svg>
+                    </a>
+                    <a href="https://x.com" target="_blank" rel="noreferrer" aria-label="X">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 3h4.5l4.1 5.7L17.6 3H20l-6.4 7.5L20.5 21H16l-4.6-6.4L5.8 21H3.5l6.8-8-6.3-10Z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const navToggle = document.querySelector(".nav-toggle");
+        const navMenu = document.getElementById("primary-nav");
+
+        const quotes = [
+            "Fresh food. Warm vibes.",
+            "Good meals are meant to be shared.",
+            "A cozy table tells a better story.",
+            "Simple ingredients, big comfort.",
+        ];
+
+        const quoteText = document.getElementById("quote-text");
+        const cursor = document.querySelector(".cursor");
+        let quoteIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        function tick() {
+            const currentQuote = quotes[quoteIndex];
+            const visibleText = currentQuote.slice(0, charIndex);
+            quoteText.textContent = visibleText;
+
+            const typingSpeed = isDeleting ? 45 : 85;
+
+            if (!isDeleting && charIndex < currentQuote.length) {
+                charIndex += 1;
+            } else if (isDeleting && charIndex > 0) {
+                charIndex -= 1;
+            } else if (!isDeleting && charIndex === currentQuote.length) {
+                isDeleting = true;
+                setTimeout(tick, 1400);
+                return;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                quoteIndex = (quoteIndex + 1) % quotes.length;
+            }
+
+            setTimeout(tick, typingSpeed);
+        }
+
+        if (quoteText && cursor) {
+            tick();
+        }
+
+        if (navToggle && navMenu) {
+            navToggle.addEventListener("click", () => {
+                const isOpen = navToggle.getAttribute("aria-expanded") === "true";
+                navToggle.setAttribute("aria-expanded", String(!isOpen));
+                navMenu.classList.toggle("is-open", !isOpen);
+            });
+
+            navMenu.querySelectorAll("a").forEach((link) => {
+                link.addEventListener("click", () => {
+                    if (window.innerWidth <= 720) {
+                        navToggle.setAttribute("aria-expanded", "false");
+                        navMenu.classList.remove("is-open");
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+</html>

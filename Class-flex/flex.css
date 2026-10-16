@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 5rem;
+    background-color: hsl(180, 100%, 84%);
+    max-height: 100vh;
+}
+
+p{
+    color: hsl(216, 70%, 60%);
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+    text-shadow: 4px 4px whitesmoke;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 1rem;
+    width: 50vw;
+    flex-wrap: wrap;
+    background-color: rgb(5, 142, 248);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 1rem;
+}
+
+.item{
+    padding: 2rem;
+    background-color: rgb(246, 246, 2);
+    color: rgb(97, 110, 252);
+    
+    gap:2rem
+}

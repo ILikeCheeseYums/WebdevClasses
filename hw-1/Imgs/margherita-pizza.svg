@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Margherita pizza">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="hsl(45, 78%, 94%)"/>
+      <stop offset="100%" stop-color="hsl(36, 78%, 81%)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" rx="64" fill="url(#bg)"/>
+  <circle cx="400" cy="400" r="248" fill="hsl(31, 80%, 56%)"/>
+  <circle cx="400" cy="400" r="210" fill="hsl(28, 65%, 50%)"/>
+  <circle cx="400" cy="400" r="165" fill="hsl(8, 70%, 46%)"/>
+  <circle cx="400" cy="400" r="60" fill="hsl(52, 85%, 82%)"/>
+  <g fill="hsl(120, 35%, 42%)">
+    <path d="M250 275c25 10 42 26 49 48-28-4-46-20-49-48z"/>
+    <path d="M520 285c19 7 33 20 41 40-22-3-36-15-41-40z"/>
+    <path d="M545 444c19 7 33 20 41 40-22-3-36-15-41-40z"/>
+    <path d="M308 520c19 7 33 20 41 40-22-3-36-15-41-40z"/>
+    <path d="M420 300c19 7 33 20 41 40-22-3-36-15-41-40z"/>
+    <path d="M235 445c19 7 33 20 41 40-22-3-36-15-41-40z"/>
+  </g>
+  <g fill="hsl(0, 0%, 100%)" opacity="0.96">
+    <circle cx="333" cy="318" r="18"/>
+    <circle cx="461" cy="330" r="18"/>
+    <circle cx="508" cy="460" r="18"/>
+    <circle cx="370" cy="495" r="18"/>
+    <circle cx="282" cy="424" r="18"/>
+  </g>
+</svg>
