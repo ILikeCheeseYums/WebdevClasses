@@ -7,7 +7,7 @@
 body{
     padding: 5rem;
     background-color: hsl(180, 100%, 84%);
-    max-height: 100vh;
+
 }
 
 p{
@@ -20,12 +20,17 @@ p{
 
 .container{
     margin: 0 auto;
-    padding: 1rem;
-    width: 50vw;
-    flex-wrap: wrap;
+    padding: 3rem;
+    max-width: fit-content;
     background-color: rgb(5, 142, 248);
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.container-sub{
+
+    display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
@@ -34,6 +39,6 @@ p{
     padding: 2rem;
     background-color: rgb(246, 246, 2);
     color: rgb(97, 110, 252);
-    
+    aspect-ratio: 1;
     gap:2rem
 }
